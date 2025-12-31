@@ -1,0 +1,10 @@
+﻿namespace maintenance.DTOs.Auth
+{
+    public class AuthResponseDto
+    {
+        public int UserId { get; set; }
+        public string UserName { get; set; }
+        public string Role { get; set; }
+        public string Token { get; set; } // فاضي دلوقتي
+    }
+}
